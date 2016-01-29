@@ -65,11 +65,11 @@ To run the script, source `run_analysis.R`. After running, you will see the foll
 	
 ## Cleaned Data
 
-The resulting tidy dataset is in this repository at: `data/mergedTidyData.txt`. 
-A second, independent tidy data set with the average of each variable for each activity and each subject is also in this repository at: `data/averageTidyData.txt`
+1. The resulting tidy dataset is in this repository at: `data/mergedTidyData.txt`. 
+2. A second, independent tidy data set with the average of each variable for each activity and each subject is also in this repository at: `data/averageTidyData.txt`
 
 ## Notes
 
-X_* - feature values (one row of 561 features for a single activity)
-Y_* - activity identifiers (for each row in X_*)
-subject_* - subject identifiers for rows in X_*
+	* X_* - feature values (one row of 561 features for a single activity)
+	* Y_* - activity identifiers (for each row in X_*)
+	* subject_* - subject identifiers for rows in X_*
