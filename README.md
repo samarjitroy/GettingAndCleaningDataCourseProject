@@ -51,8 +51,8 @@ To run the script, source `run_analysis.R`. After running, you will see the foll
 4. Extracts only the measurements on the mean and standard deviation for each measurement:
 	* Making Include filter Vector for Mean & STD
 	* Merge Test & Training Features Data, filter only Mean & STD and Set Column Name:
-		i. Row bind Test and Training Data
-		ii. Apply filter to get Mean & STD
+		* Row bind Test and Training Data
+		* Apply filter to get Mean & STD
 5. Merge Test & Training Subject Data and Set Column Name
 6. Merge Test & Training activity Data, Set Column Name
 7. Merge Activity Data and Activity Desciption Information. Then extract Only Desc Column for all rows.
