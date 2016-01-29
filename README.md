@@ -38,30 +38,30 @@ To run the script, source `run_analysis.R`. After running, you will see the foll
 
 ## Process
 1. Download source Data:
-	a. Check if data directory exists in current directory
-	b. if not there, create one data directory
-	c. Download data file(getdata-projectfiles-UCI HAR Dataset.zip) to data directory
+	* Check if data directory exists in current directory
+	* if not there, create one data directory
+	* Download data file(getdata-projectfiles-UCI HAR Dataset.zip) to data directory
 2. Un-zip data file:
-    a. Check if zip file exists in ./data 
-	b. Extract data (UCI HAR Dataset) from Zip file
+    * Check if zip file exists in ./data 
+	* Extract data (UCI HAR Dataset) from Zip file
 3. Load Datasets:
-	a. Load Data for Test case
-	b. Load Data for Training case
-	c. Load Data description information
+	* Load Data for Test case
+	* Load Data for Training case
+	* Load Data description information
 4. Extracts only the measurements on the mean and standard deviation for each measurement:
-	a. Making Include filter Vector for Mean & STD
-	b. Merge Test & Training Features Data, filter only Mean & STD and Set Column Name:
+	* Making Include filter Vector for Mean & STD
+	* Merge Test & Training Features Data, filter only Mean & STD and Set Column Name:
 		i. Row bind Test and Training Data
 		ii. Apply filter to get Mean & STD
 5. Merge Test & Training Subject Data and Set Column Name
 6. Merge Test & Training activity Data, Set Column Name
 7. Merge Activity Data and Activity Desciption Information. Then extract Only Desc Column for all rows.
 8. Final Merge Subject, Activity and Features Mean & STD to one Tidy Dataset
-	a. Column Bind all three set of Data
-	b. Write table to mergedTidyData.txt without row numbers and quote
+	* Column Bind all three set of Data
+	* Write table to mergedTidyData.txt without row numbers and quote
 9. From the tidy data set, creates a second, independent tidy data set with the average of each variable for each activity and each subject:
-	a. create average data set by acitivity and subject
-	b. write table to averageTidyData.txt without row numbers and quote
+	* create average data set by acitivity and subject
+	* write table to averageTidyData.txt without row numbers and quote
 	
 ## Cleaned Data
 
